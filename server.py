@@ -85,4 +85,6 @@ def receive():
         thread.start()
 
 # call main method
+
+print(f"Server is listening at port: { port }")
 receive()
